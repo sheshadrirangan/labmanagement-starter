@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2022-11-28T16:52:50.2705484Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-11-28T16:52:59.0133525Z"
+    }
+  },
+  "parameters": {
+    "secrets1.resourceGroupName": {
+      "Name": "secrets1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "srv_labmanagement_rg"
+    },
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "551f6942-d82d-4c4e-99c8-8aa1dca5eaa2"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "socgen-sqlserver-rg"
+    },
+    "secrets1.subscriptionId": {
+      "Name": "secrets1.subscriptionId",
+      "Type": "subscription",
+      "Value": "551f6942-d82d-4c4e-99c8-8aa1dca5eaa2"
+    }
+  }
+}

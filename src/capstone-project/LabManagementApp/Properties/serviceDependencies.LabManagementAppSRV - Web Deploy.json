@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/LabManagementAppvaultSRV",
+      "type": "secrets.keyVault",
+      "connectionId": "VaultUriSRV",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/socgensqlserver/databases/Lab_management_db_srv",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:LabManagementAppContext",
+      "secretStore": "AzureKeyVault"
+    }
+  }
+}
